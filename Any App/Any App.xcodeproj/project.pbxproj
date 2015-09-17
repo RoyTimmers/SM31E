@@ -14,6 +14,12 @@
 		F5B6FEC91BA2C7000023BAC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B6FEC81BA2C7000023BAC6 /* Images.xcassets */; };
 		F5B6FECC1BA2C7000023BAC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B6FECA1BA2C7000023BAC6 /* LaunchScreen.xib */; };
 		F5B6FED81BA2C7010023BAC6 /* Any_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6FED71BA2C7010023BAC6 /* Any_AppTests.swift */; };
+		F5B6FEE41BAAABAA0023BAC6 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6FEE31BAAABAA0023BAC6 /* GeneralViewController.swift */; };
+		F5B6FEE61BAAABC10023BAC6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6FEE51BAAABC10023BAC6 /* AboutViewController.swift */; };
+		F5B6FEE81BAAABCE0023BAC6 /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6FEE71BAAABCE0023BAC6 /* EasterEggViewController.swift */; };
+		F5B6FEEA1BAAABE40023BAC6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6FEE91BAAABE40023BAC6 /* DetailsViewController.swift */; };
+		F5B6FEEC1BAAABF40023BAC6 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6FEEB1BAAABF40023BAC6 /* MoreDetailsViewController.swift */; };
+		F5B6FEF21BAAB6F20023BAC6 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B6FEF11BAAB6F20023BAC6 /* Unknown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		F5B6FED11BA2C7010023BAC6 /* Any AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Any AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B6FED61BA2C7010023BAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B6FED71BA2C7010023BAC6 /* Any_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any_AppTests.swift; sourceTree = "<group>"; };
+		F5B6FEE31BAAABAA0023BAC6 /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		F5B6FEE51BAAABC10023BAC6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F5B6FEE71BAAABCE0023BAC6 /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
+		F5B6FEE91BAAABE40023BAC6 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F5B6FEEB1BAAABF40023BAC6 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
+		F5B6FEF11BAAB6F20023BAC6 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Unknown.png; path = ../../Downloads/Unknown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 		F5B6FEB01BA2C6FF0023BAC6 = {
 			isa = PBXGroup;
 			children = (
+				F5B6FEF11BAAB6F20023BAC6 /* Unknown.png */,
 				F5B6FEBB1BA2C7000023BAC6 /* Any App */,
 				F5B6FED41BA2C7010023BAC6 /* Any AppTests */,
 				F5B6FEBA1BA2C7000023BAC6 /* Products */,
@@ -86,6 +99,11 @@
 				F5B6FECA1BA2C7000023BAC6 /* LaunchScreen.xib */,
 				F5B6FEC01BA2C7000023BAC6 /* Any_App.xcdatamodeld */,
 				F5B6FEBC1BA2C7000023BAC6 /* Supporting Files */,
+				F5B6FEE31BAAABAA0023BAC6 /* GeneralViewController.swift */,
+				F5B6FEE51BAAABC10023BAC6 /* AboutViewController.swift */,
+				F5B6FEE71BAAABCE0023BAC6 /* EasterEggViewController.swift */,
+				F5B6FEE91BAAABE40023BAC6 /* DetailsViewController.swift */,
+				F5B6FEEB1BAAABF40023BAC6 /* MoreDetailsViewController.swift */,
 			);
 			path = "Any App";
 			sourceTree = "<group>";
@@ -197,6 +215,7 @@
 			files = (
 				F5B6FEC71BA2C7000023BAC6 /* Main.storyboard in Resources */,
 				F5B6FECC1BA2C7000023BAC6 /* LaunchScreen.xib in Resources */,
+				F5B6FEF21BAAB6F20023BAC6 /* Unknown.png in Resources */,
 				F5B6FEC91BA2C7000023BAC6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +236,12 @@
 			files = (
 				F5B6FEC41BA2C7000023BAC6 /* ViewController.swift in Sources */,
 				F5B6FEC21BA2C7000023BAC6 /* Any_App.xcdatamodeld in Sources */,
+				F5B6FEEC1BAAABF40023BAC6 /* MoreDetailsViewController.swift in Sources */,
 				F5B6FEBF1BA2C7000023BAC6 /* AppDelegate.swift in Sources */,
+				F5B6FEE61BAAABC10023BAC6 /* AboutViewController.swift in Sources */,
+				F5B6FEEA1BAAABE40023BAC6 /* DetailsViewController.swift in Sources */,
+				F5B6FEE81BAAABCE0023BAC6 /* EasterEggViewController.swift in Sources */,
+				F5B6FEE41BAAABAA0023BAC6 /* GeneralViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +437,7 @@
 				F5B6FEDD1BA2C7010023BAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5B6FEDE1BA2C7010023BAC6 /* Build configuration list for PBXNativeTarget "Any AppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +446,7 @@
 				F5B6FEE01BA2C7010023BAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
